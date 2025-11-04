@@ -71,7 +71,7 @@ else valid index
   CommandResult --> DeleteAttributeCommand
   deactivate CommandResult
 
-  DeleteAttributeCommand --> LogicManager : r
+  DeleteAttributeCommand --> LogicManager -- : r
 end
 deactivate DeleteAttributeCommand
 
